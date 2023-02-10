@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> My First Webpage </title>
+	<link rel="stylesheet" href="intro-js.css">
+	
+</head>
+
+<body>
+	<h1> Welcome! </h1>
+	
+	<hr>
+	
+	<div class="main">
+
+	<div class="buttons">
+	<h2> Intro to onclick() </h2>
+
+	<button onclick="alert('Hi')"> Inline Javascript </button>
+	<button onclick="popUp()"> Separate JS File </button>
+
+	<input id="nameInput" placeholder="Type your name"></input>
+	<button onclick="popUpGreeting()"> Generate Greeting </button>
+	
+	
+	</div>
+
+	<div class="switchImage">
+	<h2> Logic </h2>
+	<img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cute-cat-photos-1593441022.jpg" id="switchPic" width="300px">
+	<button onclick="switchImage()"> Switch Image </button>
+	
+	
+	</div>
+
+	<div class="slideshow">
+	<h2> Fancy Slideshow </h2>
+
+	<img class="slideshow-button" id="leftButton" src="https://img.freepik.com/free-icon/left-arrow_318-166216.jpg" onclick="plusSlides(-1)"/>
+	
+	<img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lionel-animals-to-follow-on-instagram-1568319926.jpg?crop=0.922xw:0.738xh;0.0555xw,0.142xh&resize=640:*" id="slideshowPic" height="300px"/>
+
+	<p id="slideCounter"></p>
+
+	<img class="slideshow-button" id="rightButton" src="https://cdn-icons-png.flaticon.com/512/156/156268.png?w=740&t=st=1675829170~exp=1675829770~hmac=a9732db74d8b8f15c319a3677c7822fe01e0dcd4d98d4d8dc729f201bfbf3186" onclick="plusSlides(1)"/>
+	
+	
+	</div>
+
+<script src="intro-js"></script>
+	
+</body>
+
+</html>

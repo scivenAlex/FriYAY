@@ -1,0 +1,66 @@
+body {
+	background-image: linear-gradient(to right, #f2a7d2, #f2e2a7); 
+	font-family: Garamond, serif;
+}
+
+hr {
+	margin-bottom: 30px;
+}
+
+h1, h2 {
+	padding: 5px;
+	margin : 20px;
+	color: darkblue;
+	text-align: center;
+}
+
+img {
+	border: 5px outset hotpink;
+	display: block;
+}
+
+p {
+	width: 500px;
+}
+
+.main {
+	display: flex;
+	flex-flow: column;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center
+}
+
+button, input {
+	display: block;
+	margin: 10px;
+	padding: 3px;
+	margin: 10px;
+  	width: 50%;
+}
+
+.slideshow-button {
+	border: none;
+	width: 40px;
+	height: 40px;
+	display: inline;
+	position: relative;
+	bottom: 125px;
+	margin: 15px;
+}
+
+#slideshowPic{
+	display: inline;
+}
+
+#slideCounter {
+	display: inline;
+	position: relative;
+	background-color: rgba(225, 225, 225, .5);
+	bottom: 20px;
+	padding: 5px;
+	margin: 10px;
+}
+
+
+
