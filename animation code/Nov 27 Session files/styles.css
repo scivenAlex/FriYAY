@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    perspective: 1000px;
+
+}  
+
+.container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    transform-style: preserve-3d;
+    height: 80vh;
+    width: 40%;
+    border-radius: 30px;
+    padding: 0rem 5rem;
+    text-align: center;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2)
+}
+
+.avocado{
+    
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* background: rgb(185, 255, 252); */
+} 
+
+.avocado img {
+    width: 20rem;
+    z-index: 2;
+    padding-bottom: 5px;
+    transition: all 0.75s ease-out;
+}
+
+.circle{
+    width: 18rem;
+    height: 18rem;
+    background: linear-gradient(to right, rgba(176, 251, 169, 0.75), rgba(6, 126, 80, 0.75));
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+
+.info h1{
+    font-size: 3rem;
+    align-items: center;
+    padding-top: 30px;
+    transition: all 0.75s ease-out;
+}
+
+.info h3{
+    font-size: 1.3rem;
+    padding: 2rem 0rem;
+    align-items: center;
+    color: #363333;
+    font-weight: lighter;
+    transition: all 0.75s ease-out;
+}
+
+.sizes{
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.75s ease-out;
+
+}
+
+.sizes button{
+    padding: 0.5rem 2rem;
+    background: none;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    color: #363333;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+button.active{
+    background: #363333;
+    color: white;
+}
+
+.purchase{
+    margin-top: 5rem;
+    padding-bottom: 30px;
+    transition: all 0.75s ease-out;
+}
+
+.purchase button{
+    width: 100%;
+    padding: 1rem 0rem;
+    border-radius: 30px;
+    border: none;
+    background: linear-gradient(to right, rgba(81, 245, 66, 0.75), rgba(6, 126, 80, 0.75));
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
